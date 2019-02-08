@@ -1,14 +1,8 @@
 Software Heritage CI environment
 ========================================
 
-Add the .mrconfig to your .mrtrust file:
+To update your environment:
 
 ```
-echo $CI_ENVIRONMENT/.mrconfig >> ~/.mrtrust
-```
-
-Then update your environment:
-
-```
-git pull && mr update
+git pull && mr -j4 update
 ```
