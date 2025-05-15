@@ -1,10 +1,10 @@
 # keep the list sorted alphabetically by local repo name
 
 [swh-jenkins-dockerfiles]
-checkout = git clone 'https://forge.softwareheritage.org/source/swh-jenkins-dockerfiles' 'swh-jenkins-dockerfiles'
+checkout = git clone 'https://gitlab.softwareheritage.org/swh/infra/ci-cd/swh-jenkins-dockerfiles.git' 'swh-jenkins-dockerfiles'
 
 [swh-jenkins-jobs]
-checkout = git clone 'https://forge.softwareheritage.org/source/swh-jenkins-jobs' 'swh-jenkins-jobs'
+checkout = git clone 'https://gitlab.softwareheritage.org/swh/infra/ci-cd/swh-jenkins-jobs.git' 'swh-jenkins-jobs'
 
 [swh-jenkins-library]
-checkout = git clone 'https://forge.softwareheritage.org/source/swh-jenkins-library' 'swh-jenkins-library'
+checkout = git clone 'https://gitlab.softwareheritage.org/swh/infra/ci-cd/swh-jenkins-library' 'swh-jenkins-library'
